@@ -1,0 +1,163 @@
+
+.footer-friend ul,.footer-friend li{
+    margin: 0;
+    padding: 0;
+}
+
+
+ li {
+    list-style: none;
+}
+
+/* 必要布局样式css */
+.footer-box {
+    background: #f8f8f8;
+    overflow: hidden;
+    width: 100%;
+    color: #888;
+    padding: 0px 0 10px;
+    /* margin-top: 20px; */
+}
+
+.footer-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.footer-service {
+    margin-right: -26px;
+    margin-bottom: 38px;
+    padding-left: 69px;
+}
+
+.footer-service-item {
+    float: left;
+    height: 60px;
+    width: 20%;
+    margin-right: 26px;
+}
+
+.footer-service-item i {
+    width: 40px;
+    height: 45px;
+    float: left;
+    margin: 17px 17px 0 29px;
+    opacity: .8;
+    -webkit-transform: scale(.6);
+    -moz-transform: scale(.6);
+    transform: scale(.6);
+}
+
+.footer-service-item span {
+    font-size: 16px;
+    color: #ccc;
+    float: left;
+    margin-top: 10px;
+}
+/* 
+.footer-icon-001 i {
+    background: url(../images/icon-footer01.png) no-repeat center center;
+    background-size: contain;
+}
+
+.footer-icon-002 i {
+    background: url(../images/icon-footer02.png) no-repeat center center;
+    background-size: contain;
+}
+
+.footer-icon-003 i {
+    background: url(../images/icon-footer03.png) no-repeat center center;
+    background-size: contain;
+}
+
+.footer-icon-004 i {
+    background: url(../images/icon-footer04.png) no-repeat center center;
+    background-size: contain;
+} */
+
+.footer-line {
+    height: 0;
+    display: block;
+    clear: both;
+    border-bottom: 1px solid #bbb;
+}
+
+.footer-links {
+    padding-top: 20px;
+    padding-left: 69px;
+}
+
+.footer-article-item {
+    width: 15%;
+    height: 226px;
+    float: left;
+    margin-left: 4.5%;
+    line-height: 2;
+    font-size: 14px;
+}
+
+.footer-article-item dt {
+    color:black;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 2;
+    /* font-weight: 300; */
+}
+
+.footer-article-item dd {
+    line-height: 2;
+}
+
+.footer-article-item dd a {
+    color:#494848;;
+    transition: all .1s;
+    text-decoration: none;
+}
+
+.footer-article-item dd a:hover {
+    color: rgb(0, 0, 0);
+    font-weight:550;
+    
+}
+
+.footer-contact-item {
+    width: 145px;
+    float: left;
+}
+
+.footer-contact-item h3 {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 2;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.footer-contact-item p {
+    font-size: 22px;
+    color: rgb(70, 67, 67);
+    font-family: Arial,"Microsoft Yahei","HanHei SC",PingHei,"PingFang SC","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    margin-bottom: 15px;
+}
+
+.footer-ewm {
+    float: left;
+    width: 110px;
+    margin-right: 18px;
+    text-align: center;
+}
+
+.footer-ewm img {
+    width: 110px;
+    height: 110px;
+    display: block;
+    border: none;
+}
+
+.footer-ewm p {
+    font-size: 14px;
+    color: rgb(70, 67, 67);
+    margin-top: 12px;
+}
+
